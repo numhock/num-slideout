@@ -13,6 +13,8 @@ var beforeopenEvent = false;
 var openEvent = false;
 var beforecloseEvent = false;
 var closeEvent = false;
+var delayEvent = false;
+var imidEvent = false;
 var slideout = new Slideout({
   'panel': doc.getElementById('panel'),
   'menu': doc.getElementById('menu'),
